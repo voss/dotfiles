@@ -216,7 +216,7 @@ nnoremap ,html :-1read $HOME/.vim/.skeleton.html<CR>3jwf>a
 " SPELLING ********************************************************
 
 " only enable it on buffers containing files with potential prose
-autocmd FileType latex,tex,md,markdown,txt,text.html setlocal spell
+autocmd FileType latex,tex,md,markdown,txt,text,html setlocal spell
 set spelllang=en,da
 
 
