@@ -61,13 +61,16 @@ endif
 set nocompatible
 
 
-"""" enable syntax and plugins (for netrw)
+"""" enable syntax and set colorscheme (for netrw)
 syntax on
 set background=dark
 filetype plugin on
 filetype indent on
 colorscheme PaperColor
 
+" coloured right column marking the 80th char
+set colorcolumn=80
+highlight ColorColumn "ctermbg=0 guibg=lightgrey
 
 " Always show status bar
 set ls=2
